@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainScreenViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIl-rk-Ybh">
+                    <rect key="frame" x="38" y="142" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="avp-gA-XfX"/>
+                        <constraint firstAttribute="height" constant="80" id="gV0-wl-ANM"/>
+                    </constraints>
+                    <state key="normal" image="iceCream.png"/>
+                    <connections>
+                        <action selector="btnIceCream:" destination="-1" eventType="touchUpInside" id="WQa-ke-W2B"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEe-xv-1Nn">
+                    <rect key="frame" x="259" y="142" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="5uf-Ya-OWH"/>
+                        <constraint firstAttribute="height" constant="80" id="xaF-7L-req"/>
+                    </constraints>
+                    <state key="normal" image="birthday.png"/>
+                    <connections>
+                        <action selector="btnBirthday:" destination="-1" eventType="touchUpInside" id="4fW-tO-8iU"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drinks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVb-O8-pjs">
+                    <rect key="frame" x="147" y="229" width="80" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birthdays" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lK8-5Z-LIH">
+                    <rect key="frame" x="259" y="229" width="80" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cookies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1j-eR-ysd">
+                    <rect key="frame" x="92" y="360" width="80" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breads" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5h-yU-sUN">
+                    <rect key="frame" x="206" y="360" width="80" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Ice Cream" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUK-12-Yyv">
+                    <rect key="frame" x="32" y="229" width="92" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HjK-DP-idm">
+                    <rect key="frame" x="256" y="498" width="86" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Noodle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3W-W2-1ih">
+                    <rect key="frame" x="147" y="498" width="86" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Fruits" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jlb-dy-Az1">
+                    <rect key="frame" x="32" y="498" width="86" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="al3-wY-95N">
+                    <rect key="frame" x="147" y="142" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="4Xs-zZ-a2k"/>
+                        <constraint firstAttribute="width" constant="80" id="dWl-GH-rhN"/>
+                    </constraints>
+                    <state key="normal" image="Drink.png"/>
+                    <connections>
+                        <action selector="btnDrink:" destination="-1" eventType="touchUpInside" id="yp4-U2-I5l"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RvR-Y7-AVH">
+                    <rect key="frame" x="259" y="410" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="f5E-cH-tje"/>
+                        <constraint firstAttribute="width" constant="80" id="ifT-dM-12Z"/>
+                    </constraints>
+                    <state key="normal" image="wineIcon.png"/>
+                    <connections>
+                        <action selector="wine:" destination="-1" eventType="touchUpInside" id="Xrq-kv-lc8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gau-r0-yv5">
+                    <rect key="frame" x="38" y="410" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="74d-zy-Day"/>
+                        <constraint firstAttribute="height" constant="80" id="aUo-6E-Ymn"/>
+                    </constraints>
+                    <state key="normal" image="fruitsIcon.png"/>
+                    <connections>
+                        <action selector="btnFruits:" destination="-1" eventType="touchUpInside" id="PVG-7j-cfl"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8aH-ao-d0B">
+                    <rect key="frame" x="150" y="410" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="cPN-dK-JRC"/>
+                        <constraint firstAttribute="width" constant="80" id="jXv-Ic-FBD"/>
+                    </constraints>
+                    <state key="normal" image="noodleIcon.png"/>
+                    <connections>
+                        <action selector="noodle:" destination="-1" eventType="touchUpInside" id="md9-MD-wAF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPU-FD-4Wt">
+                    <rect key="frame" x="92" y="272" width="80" height="80"/>
+                    <state key="normal" image="cookie.png"/>
+                    <connections>
+                        <action selector="btnCookies:" destination="-1" eventType="touchUpInside" id="oRT-J2-BJK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdB-tb-OBS">
+                    <rect key="frame" x="206" y="272" width="80" height="80"/>
+                    <state key="normal" image="bread.png"/>
+                    <connections>
+                        <action selector="btnBread:" destination="-1" eventType="touchUpInside" id="VKc-A4-W7e"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.96097296476364136" green="0.96260637044906616" blue="0.85417336225509644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="HjK-DP-idm" firstAttribute="leading" secondItem="RvR-Y7-AVH" secondAttribute="leading" id="2eA-zo-QLb"/>
+                <constraint firstItem="w5h-yU-sUN" firstAttribute="top" secondItem="zdB-tb-OBS" secondAttribute="bottom" constant="8" id="4ty-fa-FIt"/>
+                <constraint firstItem="al3-wY-95N" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5oj-h6-Dd8"/>
+                <constraint firstItem="w5h-yU-sUN" firstAttribute="trailing" secondItem="zdB-tb-OBS" secondAttribute="trailing" id="6rm-g6-TmG"/>
+                <constraint firstItem="T1j-eR-ysd" firstAttribute="trailing" secondItem="EPU-FD-4Wt" secondAttribute="trailing" id="9kH-fi-Wks"/>
+                <constraint firstItem="fIl-rk-Ybh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="142" id="A5A-Da-wBL"/>
+                <constraint firstItem="T1j-eR-ysd" firstAttribute="top" secondItem="EPU-FD-4Wt" secondAttribute="bottom" constant="8" id="D97-h4-gzY"/>
+                <constraint firstItem="tUK-12-Yyv" firstAttribute="top" secondItem="fIl-rk-Ybh" secondAttribute="bottom" constant="7" id="EIK-hH-Ic0"/>
+                <constraint firstItem="zdB-tb-OBS" firstAttribute="top" secondItem="EPU-FD-4Wt" secondAttribute="top" id="G6h-Hx-reh"/>
+                <constraint firstItem="HjK-DP-idm" firstAttribute="top" secondItem="RvR-Y7-AVH" secondAttribute="bottom" constant="8" id="GBm-LC-jd2"/>
+                <constraint firstItem="8aH-ao-d0B" firstAttribute="top" secondItem="w5h-yU-sUN" secondAttribute="bottom" constant="29.5" id="IFz-5U-bwu"/>
+                <constraint firstItem="al3-wY-95N" firstAttribute="leading" secondItem="EPU-FD-4Wt" secondAttribute="trailing" constant="-25" id="IrO-Cn-Ehu"/>
+                <constraint firstItem="Jlb-dy-Az1" firstAttribute="leading" secondItem="Gau-r0-yv5" secondAttribute="leading" id="JhS-AR-wjO"/>
+                <constraint firstItem="al3-wY-95N" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="142" id="KpQ-iq-I7s"/>
+                <constraint firstItem="Jlb-dy-Az1" firstAttribute="top" secondItem="Gau-r0-yv5" secondAttribute="bottom" constant="8" id="L9z-Xt-Gqg"/>
+                <constraint firstItem="lK8-5Z-LIH" firstAttribute="leading" secondItem="sEe-xv-1Nn" secondAttribute="leading" id="MjR-e6-R0Y"/>
+                <constraint firstItem="RvR-Y7-AVH" firstAttribute="leading" secondItem="8aH-ao-d0B" secondAttribute="trailing" constant="29" id="TDA-oj-kdF"/>
+                <constraint firstItem="Gau-r0-yv5" firstAttribute="top" secondItem="T1j-eR-ysd" secondAttribute="bottom" constant="29.5" id="TxI-29-Lmw"/>
+                <constraint firstItem="al3-wY-95N" firstAttribute="top" secondItem="fIl-rk-Ybh" secondAttribute="top" id="WV7-OL-PFM"/>
+                <constraint firstItem="NVb-O8-pjs" firstAttribute="leading" secondItem="al3-wY-95N" secondAttribute="leading" id="Wf6-k3-AvF"/>
+                <constraint firstItem="8aH-ao-d0B" firstAttribute="top" secondItem="Gau-r0-yv5" secondAttribute="top" id="XKM-FK-FX2"/>
+                <constraint firstItem="lK8-5Z-LIH" firstAttribute="top" secondItem="sEe-xv-1Nn" secondAttribute="bottom" constant="7" id="XwZ-WX-wHR"/>
+                <constraint firstItem="RvR-Y7-AVH" firstAttribute="top" secondItem="w5h-yU-sUN" secondAttribute="bottom" constant="29.5" id="YZJ-xX-6E9"/>
+                <constraint firstItem="w5h-yU-sUN" firstAttribute="leading" secondItem="zdB-tb-OBS" secondAttribute="leading" id="Z0K-Ss-4L1"/>
+                <constraint firstItem="tUK-12-Yyv" firstAttribute="leading" secondItem="fIl-rk-Ybh" secondAttribute="leading" id="a7V-VW-jGQ"/>
+                <constraint firstItem="g3W-W2-1ih" firstAttribute="top" secondItem="8aH-ao-d0B" secondAttribute="bottom" constant="8" id="cxo-D2-Oak"/>
+                <constraint firstItem="zdB-tb-OBS" firstAttribute="leading" secondItem="al3-wY-95N" secondAttribute="trailing" constant="-21" id="dRF-hQ-ynn"/>
+                <constraint firstItem="al3-wY-95N" firstAttribute="leading" secondItem="fIl-rk-Ybh" secondAttribute="trailing" constant="29" id="dfj-oY-VbW"/>
+                <constraint firstItem="EPU-FD-4Wt" firstAttribute="top" secondItem="tUK-12-Yyv" secondAttribute="bottom" constant="22.5" id="eZm-02-ijL"/>
+                <constraint firstItem="NVb-O8-pjs" firstAttribute="trailing" secondItem="al3-wY-95N" secondAttribute="trailing" id="fuh-x5-BwV"/>
+                <constraint firstItem="8aH-ao-d0B" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hPM-EY-X5F"/>
+                <constraint firstItem="sEe-xv-1Nn" firstAttribute="leading" secondItem="al3-wY-95N" secondAttribute="trailing" constant="32" id="iDk-nX-YJt"/>
+                <constraint firstItem="tUK-12-Yyv" firstAttribute="trailing" secondItem="fIl-rk-Ybh" secondAttribute="trailing" id="iug-Zt-hwp"/>
+                <constraint firstItem="sEe-xv-1Nn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="142" id="k52-Je-gbd"/>
+                <constraint firstItem="g3W-W2-1ih" firstAttribute="leading" secondItem="8aH-ao-d0B" secondAttribute="leading" id="kGU-ph-BkE"/>
+                <constraint firstItem="T1j-eR-ysd" firstAttribute="leading" secondItem="EPU-FD-4Wt" secondAttribute="leading" id="o1l-Gt-DEr"/>
+                <constraint firstItem="RvR-Y7-AVH" firstAttribute="top" secondItem="Gau-r0-yv5" secondAttribute="top" id="r1P-1c-aU3"/>
+                <constraint firstItem="NVb-O8-pjs" firstAttribute="top" secondItem="al3-wY-95N" secondAttribute="bottom" constant="7" id="sfD-0T-eRk"/>
+                <constraint firstItem="g3W-W2-1ih" firstAttribute="trailing" secondItem="8aH-ao-d0B" secondAttribute="trailing" id="tTe-JO-oKY"/>
+                <constraint firstItem="8aH-ao-d0B" firstAttribute="leading" secondItem="Gau-r0-yv5" secondAttribute="trailing" constant="32" id="tUX-hr-HF9"/>
+                <constraint firstItem="zdB-tb-OBS" firstAttribute="top" secondItem="lK8-5Z-LIH" secondAttribute="bottom" constant="22.5" id="tdW-52-wk3"/>
+                <constraint firstItem="Jlb-dy-Az1" firstAttribute="trailing" secondItem="Gau-r0-yv5" secondAttribute="trailing" id="tgh-9x-erx"/>
+                <constraint firstItem="HjK-DP-idm" firstAttribute="trailing" secondItem="RvR-Y7-AVH" secondAttribute="trailing" id="vL9-Qr-xqA"/>
+                <constraint firstItem="lK8-5Z-LIH" firstAttribute="trailing" secondItem="sEe-xv-1Nn" secondAttribute="trailing" id="w2D-Ef-ilX"/>
+                <constraint firstItem="sEe-xv-1Nn" firstAttribute="top" secondItem="fIl-rk-Ybh" secondAttribute="top" id="wbR-g0-zSm"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="827.5" y="229.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Drink.png" width="111" height="111"/>
+        <image name="birthday.png" width="214" height="208"/>
+        <image name="bread.png" width="80" height="80"/>
+        <image name="cookie.png" width="80" height="80"/>
+        <image name="fruitsIcon.png" width="300" height="300"/>
+        <image name="iceCream.png" width="80" height="80"/>
+        <image name="noodleIcon.png" width="402" height="411"/>
+        <image name="wineIcon.png" width="1076" height="1024"/>
+    </resources>
+</document>
